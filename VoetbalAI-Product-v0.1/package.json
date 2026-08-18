@@ -1,6 +1,6 @@
 {
-  "name": "voetbalai-product-v01",
-  "version": "0.1.0",
+  "name": "voetbalai-product-v02",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

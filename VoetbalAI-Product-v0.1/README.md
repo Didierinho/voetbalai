@@ -1,31 +1,37 @@
-# VoetbalAI Product v0.1
+# VoetbalAI Product v0.2
 
-Een serieuzere Next.js productdemo van de voetbalnieuwssite.
+## Nieuw in v0.2
+- Betere fictieve thumbnails met eigen clubbadges en redactionele symbolen
+- Nieuwe wedstrijdstrip op de homepage
+- Live Eredivisie-stand en komende wedstrijden voorbereid via football-data.org
+- Automatische fallback naar demo-data wanneer er geen API-key is
+- Uitgebreid Transfercenter
+- Uitgebreidere clubpagina
+- Extra demo-artikelen
+- Responsive desktop/mobiel
 
-## Functies
-- Professionele responsive homepage
-- Eigen fictieve clubbadges / grafische thumbnails
-- Net Binnen
-- Uitgelicht
-- Nieuwsfeed
-- Betrouwbaarheidsscores
-- Eredivisie-demo stand
-- Populair
-- Dynamische artikelpagina's
-- Dynamische categoriepagina's
-- Dynamische clubpagina's
-- Bronnen- en AI-duidingssecties
+## GitHub + Vercel
+Upload/vervang de bestanden in dezelfde repository en laat Vercel opnieuw deployen.
 
-## Starten
-Vereist Node.js 20.9+.
+### Live voetbaldata activeren
+1. Maak een API-token aan bij football-data.org.
+2. Ga in Vercel naar: Project → Settings → Environment Variables.
+3. Voeg toe:
+   FOOTBALL_DATA_API_KEY = jouw_token
+4. Gebruik de variabele voor Production, Preview en Development indien gewenst.
+5. Redeploy de site.
 
-```bash
+De API-key wordt alleen server-side gebruikt en staat dus niet in de browsercode.
+
+## Zonder API-key
+De website blijft volledig werken met DEMO DATA. Boven de stand en wedstrijden staat dan duidelijk `DEMO DATA`.
+
+## Ontwikkelen lokaal
+Node.js 20.9+
+
 npm install
 npm run dev
-```
 
-Open daarna http://localhost:3000
-
-## Status
-Dit is productfase v0.1. Nieuws, standen en bronnen zijn nog demo-data.
-De code is bewust zo opgezet dat echte databronnen en een AI-redactie-engine later kunnen worden toegevoegd.
+## Volgende productstap
+v0.3: echte redactie-pipeline:
+signaal → feitextractie → bronstatus → AI-artikel → review/publicatie.

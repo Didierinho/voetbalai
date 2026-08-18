@@ -10,6 +10,7 @@ export const articles = [
     "title": "Feyenoord bereikt akkoord over transfer van nieuwe rechtsback",
     "intro": "De Rotterdammers hebben in deze productdemo een akkoord bereikt over de komst van een nieuwe verdediger.",
     "theme": "rotterdam",
+    "kind": "transfer",
     "sources": [
       "Clubkanaal (demo)",
       "Competitiedata (demo)",
@@ -27,6 +28,7 @@ export const articles = [
     "title": "PSV krijgt duidelijkheid over inzetbaarheid verdediger",
     "intro": "De Eindhovenaren lijken voor het komende competitieduel weer te kunnen beschikken over een belangrijke kracht.",
     "theme": "eindhoven",
+    "kind": "training",
     "sources": [
       "Clubupdate (demo)",
       "Trainingsdata (demo)"
@@ -43,6 +45,7 @@ export const articles = [
     "title": "Ajax gelinkt aan jonge middenvelder uit Scandinavië",
     "intro": "Een buitenlandse publicatie noemt de Amsterdammers als één van meerdere geïnteresseerde clubs.",
     "theme": "amsterdam",
+    "kind": "rumour",
     "sources": [
       "Nordic Football Daily (demo)"
     ]
@@ -58,6 +61,7 @@ export const articles = [
     "title": "Engelse topclub rondt miljoenentransfer af na medische keuring",
     "intro": "De Premier League-club heeft in deze demo de komst van een nieuwe aanvaller bekendgemaakt.",
     "theme": "europe",
+    "kind": "transfer",
     "sources": [
       "Clubkanaal (demo)",
       "Verkopende club (demo)"
@@ -74,6 +78,7 @@ export const articles = [
     "title": "Nieuwe voorselectie Oranje levert twee opvallende namen op",
     "intro": "De bondscoach heeft in deze demo een voorselectie gepubliceerd met twee debutanten.",
     "theme": "oranje",
+    "kind": "selection",
     "sources": [
       "Bondsdata (demo)",
       "Selectieregister (demo)"
@@ -90,6 +95,7 @@ export const articles = [
     "title": "AZ kiest nadrukkelijk voor jeugd in aanloop naar nieuw seizoen",
     "intro": "Twee talenten lijken definitief bij de eerste selectie aan te sluiten.",
     "theme": "alkmaar",
+    "kind": "youth",
     "sources": [
       "Clubupdate (demo)",
       "Selectiedata (demo)"
@@ -106,6 +112,7 @@ export const articles = [
     "title": "FC Twente voert gesprekken over komst van nieuwe spits",
     "intro": "De club uit Enschede zoekt aanvallende versterking en heeft een kandidaat op het oog.",
     "theme": "twente",
+    "kind": "transfer",
     "sources": [
       "Regionale bron (demo)",
       "Transferdata (demo)"
@@ -122,8 +129,42 @@ export const articles = [
     "title": "Nieuwe Europese loting levert Nederlandse clubs stevige affiches op",
     "intro": "De fictieve loting zorgt voor een aantal aansprekende ontmoetingen met buitenlandse topclubs.",
     "theme": "europe",
+    "kind": "match",
     "sources": [
       "Competitie-organisatie (demo)"
+    ]
+  },
+  {
+    "slug": "heerenveen-aanvoerder",
+    "time": "10:12",
+    "category": "Eredivisie",
+    "club": "sc Heerenveen",
+    "badge": "SH",
+    "score": "4/5",
+    "status": "MEERDERE BRONNEN",
+    "title": "Heerenveen wijst nieuwe aanvoerder aan voor komend seizoen",
+    "intro": "De Friezen kiezen in deze demo voor een ervaren middenvelder als nieuwe captain.",
+    "theme": "friesland",
+    "kind": "club",
+    "sources": [
+      "Clubupdate (demo)",
+      "Selectiedata (demo)"
+    ]
+  },
+  {
+    "slug": "utrecht-europa",
+    "time": "09:48",
+    "category": "Europa",
+    "club": "FC Utrecht",
+    "badge": "UT",
+    "score": "5/5",
+    "status": "OFFICIEEL",
+    "title": "FC Utrecht kent mogelijke tegenstander in Europese voorronde",
+    "intro": "De Domstedelingen weten welke route hen mogelijk wacht richting de volgende ronde.",
+    "theme": "utrecht",
+    "kind": "match",
+    "sources": [
+      "Competitiedata (demo)"
     ]
   }
 ];
